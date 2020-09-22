@@ -1,0 +1,44 @@
+#message {
+  resize: none;
+  width: 640px;
+  height: 200px;
+}
+
+.c_submit {
+  padding:  5px 10px;
+}
+
+.form_l_title {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#title {
+  padding: 16px 20px;
+  font-size: 25px;
+  width: 80%;
+}
+
+.title_l_form {
+  margin-top: 30px;
+}
+
+#name_title {
+  padding: 16px 20px;
+  font-size: 25px;
+  width: 80%;
+}
+
+#mail_title {
+  padding: 16px 20px;
+  font-size: 25px;
+  width: 80%;
+}
+
+.l_submit{
+  margin-top: 30px;
+}
+
+.footer{
+  margin-top: 40px;
+}

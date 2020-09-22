@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>CONTACT - SakeStoreIN TOKYO</title>
+    <meta property="og:description" content="お問い合わせについての説明" />
+    <meta
+      content="TypeScript"
+      name="keywords"
+      content="お酒,OSAKE,おさけ,獺祭"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="l_mainlyout">
+      <!-- Header -->
+      <header>
+        <section class="c_title_main">
+          <a class="c_title__link" href="/">SakeStore IN TOKYO</a>
+        </section>
+      </header>
+      <div class="brands">
+        <section>
+          <div class="l_sub_title">
+            <h1 id="osake-title" class="c_osake__name"></h1>
+            <h3 id="sub_title" class="c_sub_title"></h3>
+          </div>
+        </section>
+        <!-- メインビジュアル -->
+        <section>
+          <div class="l_osake_main">
+            <div class="l-osake-img">
+              <img id="osake-img" class="c_img" src="./img/sample.png" />
+            </div>
+            <p id="osake_taste" class="c_osake_taste"></p>
+            <p id="osake_frequency" class="c_osake_frequency"></p>
+            <p id="osake_rice" class="c_osake_rice"></p>
+            <p id="alcohol" class="c_alcohol"></p>
+          </div>
+        </section>
+
+        <section>
+          <div class="l_area_house">
+            <p id="area" class="c_area"></p>
+            <p id="osake_house" class="c_osake_house"></p>
+            <a id="osake_ual" class="c_osake_ual" href="#" target="_blank"></a>
+          </div>
+        </section>
+
+        <!-- お酒の説明 -->
+        <section>
+          <div class="l_osake__summary">
+            <p id="osake-summary" class="c_osake__summary"></p>
+          </div>
+        </section>
+        <!-- お店情報 -->
+        <section>
+          <p id="store" class="c_store"></p>
+        </section>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js//main.js"></script>
+  </body>
+</html>

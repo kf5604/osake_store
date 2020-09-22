@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <title>CONTACT - SakeStoreIN TOKYO</title>
+    <meta property="og:description" content="お問い合わせについての説明" />
+    <meta
+      content="TypeScript"
+      name="keywords"
+      content="お酒,OSAKE,おさけ,獺祭"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <section class="c_title_main">SakeStore 　IN TOKYO</section>
+    </header>
+
+    <section class="sake_top">
+      <div class="first_l_imglyout">
+        <img src="img/osake_main.png" class="c_imag_first" />
+      </div>
+    </section>
+
+    <section class="form_l_title">
+      <h1>お問い合わせフォーム</h1>
+
+      <div class="title_l_form">
+        <label for="title">タイトル</label><br />
+        <input type="text" name="title" id="title" autofocus /><br />
+      </div>
+      <div class="title_l_form">
+        <label for="name_title">お名前</label><br />
+        <input type="text" name="name_title" id="name_title" /><br />
+      </div>
+      <div class="title_l_form">
+        <label for="mail_title">メールアドレス</label><br />
+        <input type="mail" name="mail_title" id="mail_title" /><br />
+      </div>
+      <div class="title_l_form">
+        <label for="message">お問い合わせ内容</label><br />
+        <textarea
+          placeholder="具体的にお書きください。"
+          name="message"
+          id="message"
+        ></textarea
+        ><br />
+      </div>
+      <div class="l_submit">
+        <input type="submit" class="c_submit" value="送信" />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer_main">
+        <a href="#" class="footer_tokyo">SakeStore 　IN TOKYO</a>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
